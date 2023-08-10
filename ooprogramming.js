@@ -27,6 +27,15 @@ class Worker extends Person{
     }
 }
 // Task 3: Code an intern object, run methods
-
+function intern() {
+    var intern = new Worker()
+    intern.name = "Bob"
+    intern.age = 21
+    intern.energy = 110
+    intern.xp = 0
+    intern.hourlyWage = 10
+    intern.goToWork()
+    return intern
+}
 
 // Task 4: Code a manager object, methods
