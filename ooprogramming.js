@@ -39,3 +39,11 @@ function intern() {
 }
 
 // Task 4: Code a manager object, methods
+function manager() {
+    var manager = new Worker ("Alice", 30, 120, 100, 30)
+    manager.doSomethingFun()
+    return manager
+}
+
+console.log(intern())
+console.log(manager())
